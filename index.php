@@ -10,7 +10,8 @@
     <label for="firstNumber">First number</label>
     <input type="text" name="firstNumber" placeholder="Enter first number" />
     <label for="secondNumber">Second number</label>
-    <input type="text" name="secondNumber" placeholder="Enter first number" />
+    <input type="text" name="secondNumber" placeholder="Enter second number" />
+    <input type="submit" name="add" value="Add 2 numbers">
   </form>
 </body>
 </html>
