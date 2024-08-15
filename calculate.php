@@ -1,12 +1,11 @@
-<?php  
+<?php
 
-if ($_POST['firstNumber'] == '' || $_POST['secondNumber'] == '')
-{
+if ($_POST['firstNumber'] == '' || $_POST['secondNumber'] == '') {
   echo "Fields are required";
-}
-else {
+} else {
   $firstNumber = $_POST['firstNumber'];
   $secondNumber = $_POST['secondNumber'];
+  $sum = $firstNumber + $secondNumber;
 
-  echo $firstNumber + $secondNumber;
+  echo "The sum of $firstNumber and $secondNumber is $sum";
 }
